@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("p").click(function(){
+  $(this).hide();
+  $("#first-table").append("<tr><td>333333</td><td>444444</td></tr>")
+  });
+});
+</script>
+
+<link rel="stylesheet" href="../bootstrap-3.3.2-dist/css/bootstrap.css" />
+
+</head>
+
+<body>
+<p>If you click on me, I will disappear.</p>
+
+<table style='width: 80%;'  class='table table-bordered table-hover' >
+<tr><td>fffff</td><td>gggggg</td></tr>	
+<tr><td>111111</td><td>22222</td></tr>	
+</table>
+
+</body>
+
+</html> 
